@@ -7,13 +7,13 @@
         <item>
             <title>Version 0.2.0 alpha</title>
             <link>https://nsloon.app</link>
-            <sparkle:version>57</sparkle:version>
-            <sparkle:shortVersionString>0.2.0(57)</sparkle:shortVersionString>
+            <sparkle:version>60</sparkle:version>
+            <sparkle:shortVersionString>0.2.0(60)</sparkle:shortVersionString>
             <description>
-            <![CDATA[ <ul><li>修复x86_64编译问题</li><li>调整帮助程序</li><li>除去UI阴影，调整部分UI，部分文案优化</li>如果遇到无法选择节点、无法延迟测试的问题，请完全卸载后重新安装Loon<li></li></ul> ]]>
+            <![CDATA[ <ul><li>修复首次激活文件创建权限异常导致无法选择策略组的 bug</li><li>修复引导页 UI 异常</li><li>旧版本遇到策略组无法选择的问题话按下面操作：完全退出 Loon（状态栏下拉退出），删除 /Library/Application Support/com.loon.Loon 文件夹，然后重启 Loon 即可<li></li></ul> ]]>
             </description>
-            <pubDate>Mon Jan 12 2026 23:12:04+0000</pubDate>
-            <enclosure url="https://github.com/Loon0x00/Loon4Mac/releases/download/0.2.0(57)/Loon-0.2.0-beta-57.dmg" length="33996673" type="application/octet-stream" sparkle:edSignature="4O8lbRaKoQakvasYB0ztQHe7vCFSUfj8Y7iPXidAjS29iGJeVRXx0kqJ58cosxKSHB2A/MluFTQWfKF0Uu9WCQ=="/>
+            <pubDate>Mon Apr 27 2026 13:50:34+0000</pubDate>
+            <enclosure url="https://github.com/Loon0x00/Loon4Mac/releases/download/0.2.0(60)/Loon-0.2.0-beta-60.dmg" length="33999920" type="application/octet-stream" sparkle:edSignature="uR6D8TKVxmTVqcsorWgry8d0DQ0V7xMvykcMnRQDcpGE8vl4igX6ak5TEpf+nQxZKjPoKq/5GMMTDf2G9upfAw=="/>
         </item>
     </channel>
 </rss>
