@@ -5,15 +5,15 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 0.2.0 alpha</title>
+            <title>Version 0.3.0 alpha</title>
             <link>https://nsloon.app</link>
-            <sparkle:version>61</sparkle:version>
-            <sparkle:shortVersionString>0.2.0(61)</sparkle:shortVersionString>
+            <sparkle:version>63</sparkle:version>
+            <sparkle:shortVersionString>0.3.0(63)</sparkle:shortVersionString>
             <description>
-            <![CDATA[ <ul><li>同步 Loon 最新内核</li><li>修复首页路由、DNS 在测试延迟时偶现异常的 bug</li><li>修复配置文件偶现的同步异常 bug</li><li>调整代码架构，方便多平台编译发布</li></ul> ]]>
+            <![CDATA[ <ul><li>新的菜单栏面板</li><li>添加按进程进程分流，PROCESS-NAME,Xcode,DIRECT(key 大小写不敏感；这里的 key 显示的是 app 的进程名称，不是 app 的名字，如果不知道进程具体名称，可以到请求记录页面中查看)</li><li>优化节点延迟测试后的 UI 刷新，修复节点较多时的卡顿问题</li><li>优化网速计算方式</li></ul> ]]>
             </description>
-            <pubDate>Thu Jul 16 2026 21:11:17+0000</pubDate>
-            <enclosure url="https://github.com/Loon0x00/Loon4Mac/releases/download/0.2.0(61)/Loon-0.2.0-beta-61.dmg" length="40076747" type="application/octet-stream" sparkle:edSignature="rnTnt+pLb3ml9N2Kfjl+ZvD+XaZemj+igSmqZTg+lQSlmZfYzo1sp9+ZYk/CuPunECPw3aM0hkjBuY2a8BPCBA=="/>
+            <pubDate>Mon Jul 20 2026 23:12:13+0000</pubDate>
+            <enclosure url="https://github.com/Loon0x00/Loon4Mac/releases/download/0.3.0(63)/Loon-0.3.0-beta-63.dmg" length="40584257" type="application/octet-stream" sparkle:edSignature="vAgk/ZlCGW3rCOec/QTjJEbrc6rc/fqfI9Y6aMpUdO1AcbEl+jOyEsgFeElIb+sHluaTOYaVQujRz72eUhEiCw=="/>
         </item>
     </channel>
 </rss>
