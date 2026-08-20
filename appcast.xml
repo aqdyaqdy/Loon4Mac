@@ -7,13 +7,13 @@
         <item>
             <title>Version 0.4.0 alpha</title>
             <link>https://nsloon.app</link>
-            <sparkle:version>64</sparkle:version>
-            <sparkle:shortVersionString>0.4.0(64)</sparkle:shortVersionString>
+            <sparkle:version>69</sparkle:version>
+            <sparkle:shortVersionString>0.4.0(69)</sparkle:shortVersionString>
             <description>
-            <![CDATA[ <ul><li>全新的 UI</li><li>整个 App 使用 Appkit 完全重新实现，丢弃原来的 SwiftUI</li><li>侧边栏支持展开收起</li><li>状态栏面板鼠标放在 menu 上会自动出现子面板</li><li>重构整个引导流程，激活、安装帮助工具更加方便安全</li><li>重构XPC 进程交互模块，主 app 和 NE 内核交互更加安全便捷</li><li>调整进程统计数据逻辑，更加精准高效</li><li>优化节点、策略组测速逻辑，减少节点过多导致的 UI 卡顿和 CPU 占用率高的问题</li><li>增加状态栏配置，可以自己设置显示内容、显示策略组的数量</li><li>增加 UI 主题，可以自己设置或者导入他人主题</li><li>优化插件详情页的 UI 设计</li><li>目前主要重新设计了一二级的展示内容的 UI，编辑配置的 UI 后续会更进</li></ul> ]]>
+            <![CDATA[ <ul><li> 优化首次启动引导及 System Extension 安装、授权与更新流程</li><li>重构 VPN 管理，提升连接、断开和配置管理的稳定性</li><li>升级菜单栏，支持仅图标、仅网速及组合显示，并可控制进程信息展示</li><li>重做节点添加与编辑页面，补全多种协议配置项</li><li>修复首页、策略组及其他界面的交互和显示问题</li><li>修复显示主应用无法切到前台的问题</li></ul> ]]>
             </description>
-            <pubDate>Tue Aug 18 2026 21:02:33+0000</pubDate>
-            <enclosure url="https://github.com/Loon0x00/Loon4Mac/releases/download/0.4.0(66)/Loon-0.4.0-beta-66.dmg" length="41450491" type="application/octet-stream" sparkle:edSignature="whngo5vsFUve0NsK3+LCfWNZqtwkvJUzKGkVOFfYAaRU9U5G6p0GMYvx7Ni7MygKJx+UcwusCXk78tUduxKoCA=="/>
+            <pubDate>Tue Aug 20 2026 23:53:43+0000</pubDate>
+            <enclosure url="https://github.com/Loon0x00/Loon4Mac/releases/download/0.4.0(69)/Loon-0.4.0-beta-69.dmg" length="41724990" type="application/octet-stream" sparkle:edSignature="wXbmQSh4R13vQkdjjxyTvJmhCWjNT+4FbNLDsrdzqu7Jnu2Zniku8TdMewrdlfKKf8extrUuwiOxb2d73IW8Bw=="/>
         </item>
     </channel>
 </rss>
