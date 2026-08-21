@@ -1,19 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
-    <channel>
-        <title>Loon Changelog</title>
-        <link>http://sparkle-project.org/files/sparkletestcast.xml</link>
-        <description>Most recent changes with links to updates.</description>
-        <language>en</language>
-        <item>
-            <title>Version 0.4.0 alpha</title>
-            <link>https://nsloon.app</link>
-            <sparkle:version>69</sparkle:version>
-            <sparkle:shortVersionString>0.4.0(69)</sparkle:shortVersionString>
-            <description>
-            <![CDATA[ <ul><li> 优化首次启动引导及 System Extension 安装、授权与更新流程</li><li>重构 VPN 管理，提升连接、断开和配置管理的稳定性</li><li>升级菜单栏，支持仅图标、仅网速及组合显示，并可控制进程信息展示</li><li>重做节点添加与编辑页面，补全多种协议配置项</li><li>修复首页、策略组及其他界面的交互和显示问题</li><li>修复显示主应用无法切到前台的问题</li></ul> ]]>
-            </description>
-            <pubDate>Tue Aug 20 2026 23:53:43+0000</pubDate>
-            <enclosure url="https://github.com/Loon0x00/Loon4Mac/releases/download/0.4.0(69)/Loon-0.4.0-beta-69.dmg" length="41724990" type="application/octet-stream" sparkle:edSignature="wXbmQSh4R13vQkdjjxyTvJmhCWjNT+4FbNLDsrdzqu7Jnu2Zniku8TdMewrdlfKKf8extrUuwiOxb2d73IW8Bw=="/>
-        </item>
-    </channel>
+  <channel>
+    <title>Loon for Mac 更新日志</title>
+    <link>https://nsloon.app/Loon4Mac/changelog.html</link>
+    <description>Loon for Mac 的版本更新与历史记录。</description>
+    <language>zh-CN</language>
+
+    <!-- 发布新版本时，请将新的 item 插在这里，并保留下方的历史 item。 -->
+    <item>
+      <title>Version 0.4.0 alpha</title><link>https://nsloon.app</link>
+      <sparkle:version>69</sparkle:version><sparkle:shortVersionString>0.4.0(69)</sparkle:shortVersionString>
+      <sparkle:releaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html#build-69</sparkle:releaseNotesLink>
+      <sparkle:fullReleaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html</sparkle:fullReleaseNotesLink>
+      <description><![CDATA[<ul><li>优化首次启动引导及 System Extension 安装、授权与更新流程</li><li>重构 VPN 管理，提升连接、断开和配置管理的稳定性</li><li>升级菜单栏，支持仅图标、仅网速及组合显示，并可控制进程信息展示</li><li>重做节点添加与编辑页面，补全多种协议配置项</li><li>修复首页、策略组及其他界面的交互和显示问题</li><li>修复显示主应用无法切到前台的问题</li></ul>]]></description>
+      <pubDate>Thu, 20 Aug 2026 23:53:43 +0000</pubDate>
+      <enclosure url="https://github.com/Loon0x00/Loon4Mac/releases/download/0.4.0(69)/Loon-0.4.0-beta-69.dmg" length="41724990" type="application/octet-stream" sparkle:edSignature="wXbmQSh4R13vQkdjjxyTvJmhCWjNT+4FbNLDsrdzqu7Jnu2Zniku8TdMewrdlfKKf8extrUuwiOxb2d73IW8Bw=="/>
+    </item>
+
+    <item>
+      <title>Version 0.4.0 alpha</title><link>https://nsloon.app</link>
+      <sparkle:version>66</sparkle:version><sparkle:shortVersionString>0.4.0(66)</sparkle:shortVersionString>
+      <sparkle:releaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html#build-66</sparkle:releaseNotesLink>
+      <sparkle:fullReleaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html</sparkle:fullReleaseNotesLink>
+      <description><![CDATA[<ul><li>全新的 UI</li><li>整个 App 使用 AppKit 完全重新实现，丢弃原来的 SwiftUI</li><li>侧边栏支持展开收起</li><li>状态栏面板鼠标放在菜单上会自动出现子面板</li><li>重构整个引导流程，激活、安装帮助工具更加方便安全</li><li>重构 XPC 进程交互模块，主 App 和 NE 内核交互更加安全便捷</li><li>调整进程统计数据逻辑，更加精准高效</li><li>优化节点、策略组测速逻辑，减少节点过多导致的 UI 卡顿和 CPU 占用率高的问题</li><li>增加状态栏配置，可以自行设置显示内容和显示策略组的数量</li><li>增加 UI 主题，可以自行设置或者导入他人主题</li><li>优化插件详情页的 UI 设计</li><li>目前主要重新设计了一、二级展示内容的 UI，编辑配置的 UI 后续会继续完善</li></ul>]]></description>
+      <pubDate>Tue, 18 Aug 2026 21:02:33 +0000</pubDate>
+      <enclosure url="https://github.com/Loon0x00/Loon4Mac/releases/download/0.4.0(66)/Loon-0.4.0-beta-66.dmg" length="41450491" type="application/octet-stream" sparkle:edSignature="whngo5vsFUve0NsK3+LCfWNZqtwkvJUzKGkVOFfYAaRU9U5G6p0GMYvx7Ni7MygKJx+UcwusCXk78tUduxKoCA=="/>
+    </item>
+
+    <item>
+      <title>Version 0.3.0 alpha</title><link>https://nsloon.app</link>
+      <sparkle:version>63</sparkle:version><sparkle:shortVersionString>0.3.0(63)</sparkle:shortVersionString>
+      <sparkle:releaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html#build-63</sparkle:releaseNotesLink>
+      <sparkle:fullReleaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html</sparkle:fullReleaseNotesLink>
+      <description><![CDATA[<ul><li>新的菜单栏面板</li><li>添加按进程分流：<code>PROCESS-NAME,Xcode,DIRECT</code>（key 大小写不敏感；这里的 key 是 App 的进程名称，不是 App 名称，可以在请求记录页面中查看）</li><li>优化节点延迟测试后的 UI 刷新，修复节点较多时的卡顿问题</li><li>优化网速计算方式</li></ul>]]></description>
+      <pubDate>Mon, 20 Jul 2026 23:12:13 +0000</pubDate>
+      <enclosure url="https://github.com/Loon0x00/Loon4Mac/releases/download/0.3.0(63)/Loon-0.3.0-beta-63.dmg" length="40584257" type="application/octet-stream" sparkle:edSignature="vAgk/ZlCGW3rCOec/QTjJEbrc6rc/fqfI9Y6aMpUdO1AcbEl+jOyEsgFeElIb+sHluaTOYaVQujRz72eUhEiCw=="/>
+    </item>
+
+    <item>
+      <title>Version 0.2.0 alpha</title><link>https://nsloon.app</link>
+      <sparkle:version>61</sparkle:version><sparkle:shortVersionString>0.2.0(61)</sparkle:shortVersionString>
+      <sparkle:releaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html#build-61</sparkle:releaseNotesLink>
+      <sparkle:fullReleaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html</sparkle:fullReleaseNotesLink>
+      <description><![CDATA[<ul><li>同步 Loon 最新内核</li><li>修复首页路由、DNS 在测试延迟时偶现异常的问题</li><li>修复配置文件偶现的同步异常问题</li><li>调整代码架构，方便多平台编译发布</li></ul>]]></description>
+      <pubDate>Thu, 16 Jul 2026 21:11:17 +0000</pubDate>
+      <enclosure url="https://github.com/Loon0x00/Loon4Mac/releases/download/0.2.0(61)/Loon-0.2.0-beta-61.dmg" length="40076747" type="application/octet-stream" sparkle:edSignature="rnTnt+pLb3ml9N2Kfjl+ZvD+XaZemj+igSmqZTg+lQSlmZfYzo1sp9+ZYk/CuPunECPw3aM0hkjBuY2a8BPCBA=="/>
+    </item>
+
+    <item>
+      <title>Version 0.2.0 alpha</title><link>https://nsloon.app</link>
+      <sparkle:version>60</sparkle:version><sparkle:shortVersionString>0.2.0(60)</sparkle:shortVersionString>
+      <sparkle:releaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html#build-60</sparkle:releaseNotesLink>
+      <sparkle:fullReleaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html</sparkle:fullReleaseNotesLink>
+      <description><![CDATA[<ul><li>修复首次激活文件创建权限异常导致无法选择策略组的问题</li><li>修复引导页 UI 异常</li><li>旧版本如果遇到策略组无法选择：完全退出 Loon（从状态栏菜单退出），删除 <code>/Library/Application Support/com.loon.Loon</code> 文件夹，然后重新启动 Loon</li></ul>]]></description>
+      <pubDate>Mon, 27 Apr 2026 13:50:34 +0000</pubDate>
+      <enclosure url="https://github.com/Loon0x00/Loon4Mac/releases/download/0.2.0(60)/Loon-0.2.0-beta-60.dmg" length="33999920" type="application/octet-stream" sparkle:edSignature="uR6D8TKVxmTVqcsorWgry8d0DQ0V7xMvykcMnRQDcpGE8vl4igX6ak5TEpf+nQxZKjPoKq/5GMMTDf2G9upfAw=="/>
+    </item>
+
+    <item>
+      <title>Version 0.2.0 alpha</title><link>https://nsloon.app</link>
+      <sparkle:version>57</sparkle:version><sparkle:shortVersionString>0.2.0(57)</sparkle:shortVersionString>
+      <sparkle:releaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html#build-57</sparkle:releaseNotesLink>
+      <sparkle:fullReleaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html</sparkle:fullReleaseNotesLink>
+      <description><![CDATA[<ul><li>修复 x86_64 编译问题</li><li>调整帮助程序</li><li>移除 UI 阴影，调整部分 UI 并优化部分文案</li><li>如果遇到无法选择节点、无法进行延迟测试的问题，请完全卸载后重新安装 Loon</li></ul>]]></description>
+      <pubDate>Mon, 12 Jan 2026 23:12:04 +0000</pubDate>
+      <enclosure url="https://github.com/Loon0x00/Loon4Mac/releases/download/0.2.0(57)/Loon-0.2.0-beta-57.dmg" length="33996673" type="application/octet-stream" sparkle:edSignature="4O8lbRaKoQakvasYB0ztQHe7vCFSUfj8Y7iPXidAjS29iGJeVRXx0kqJ58cosxKSHB2A/MluFTQWfKF0Uu9WCQ=="/>
+    </item>
+
+    <item>
+      <title>Version 0.2.0 alpha</title><link>https://nsloon.app</link>
+      <sparkle:version>52</sparkle:version><sparkle:shortVersionString>0.2.0(52)</sparkle:shortVersionString>
+      <sparkle:releaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html#build-52</sparkle:releaseNotesLink>
+      <sparkle:fullReleaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html</sparkle:fullReleaseNotesLink>
+      <description><![CDATA[<ul><li>修复资源解析器无法使用的问题</li><li>修复 Script 中 HTTP Client 复用连接的问题</li><li>调整请求记录页面显示记录的策略</li></ul>]]></description>
+      <pubDate>Mon, 12 Jan 2026 23:12:04 +0000</pubDate>
+      <enclosure url="https://github.com/Loon0x00/Loon4Mac/releases/download/0.2.0(52)/Loon-0.2.0-beta-52.dmg" length="33906167" type="application/octet-stream" sparkle:edSignature="YpxvfJZ55DjMuPEvy74gLSmsA0TqBzCugsLYMx11AXL9TdMx7JiCzEiDzw5amyNdv4ljGcBG0oQsbq4RNfMSCQ=="/>
+    </item>
+
+    <item>
+      <title>Version 0.2.0 alpha</title><link>https://nsloon.app</link>
+      <sparkle:version>51</sparkle:version><sparkle:shortVersionString>0.2.0(51)</sparkle:shortVersionString>
+      <sparkle:releaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html#build-51</sparkle:releaseNotesLink>
+      <sparkle:fullReleaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html</sparkle:fullReleaseNotesLink>
+      <description><![CDATA[<ul><li>新增请求记录页面</li><li>气球开关跟随流量模式切换不同颜色</li><li>降低背景色透明度</li><li>调整部分列表 UI</li></ul>]]></description>
+      <pubDate>Sun, 11 Jan 2026 17:11:52 +0000</pubDate>
+      <enclosure url="https://github.com/Loon0x00/Loon4Mac/releases/download/0.2.0(51)/Loon_52_beta.dmg" length="33920811" type="application/octet-stream" sparkle:edSignature="x2EDaCoyifrboCMomVbbmtuRIK1kgZ/dZmFrPz1xdjSrG6BeiPnOEaDnj/+9YbzqpILkCPegiNZi/tVRgWrLDg=="/>
+    </item>
+
+    <item>
+      <title>Version 0.1 alpha (Build 42)</title><link>https://nsloon.app</link>
+      <sparkle:version>42</sparkle:version><sparkle:shortVersionString>0.1(42)</sparkle:shortVersionString>
+      <sparkle:releaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html#build-42</sparkle:releaseNotesLink>
+      <sparkle:fullReleaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html</sparkle:fullReleaseNotesLink>
+      <description><![CDATA[<ul><li>添加多配置文件切换，可以选择配置文件目录（推荐选择 iCloud 下的 Loon 目录，同步 iOS 配置）</li><li>新增安装帮助程序和配置系统网络扩展引导</li><li>将文件目录更换到更加安全的路径</li><li>新增日志等级设置，自动删除超过 7 天的日志</li><li>重新绘制首页折线图，使用 GPU 渲染并支持 60 帧刷新</li><li>修复状态栏显示网速导致 CPU 占用率高的问题</li><li>修复首页不显示插件和订阅脚本中的 MITM、脚本、复写数量</li><li>同步最新内核</li><li>注意：本次更新更换了整个文件路径，因此之前下载的资源需要重新下载，只有配置文件会自动复制到新路径</li></ul>]]></description>
+      <pubDate>Mon, 05 Jan 2026 00:18:45 +0000</pubDate>
+      <enclosure url="https://github.com/Loon0x00/Loon4Mac/releases/download/0.1(42)/Loon_alpha_42.dmg" length="33609417" type="application/octet-stream" sparkle:edSignature="op8CSqQnC2a2foSuHUk/+nUi7C298zTZV/qLWPOim3UDbpfAUWWqQwqNGy4x9k7CFtEO5M3fPNCJFZTNX7knAQ=="/>
+    </item>
+
+    <item>
+      <title>Version 0.1 alpha (Build 41)</title><link>https://nsloon.app</link>
+      <sparkle:version>41</sparkle:version><sparkle:shortVersionString>0.1(41)</sparkle:shortVersionString>
+      <sparkle:releaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html#build-41</sparkle:releaseNotesLink>
+      <sparkle:fullReleaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html</sparkle:fullReleaseNotesLink>
+      <description><![CDATA[<ul><li>添加多配置文件切换，可以选择配置文件目录（推荐选择 iCloud 下的 Loon 目录，同步 iOS 配置）</li><li>新增安装帮助程序和配置系统网络扩展引导</li><li>将文件目录更换到更加安全的路径</li><li>新增日志等级设置，自动删除超过 7 天的日志</li><li>重新绘制首页折线图，使用 GPU 渲染并支持 60 帧刷新</li><li>修复状态栏显示网速导致 CPU 占用率高的问题</li><li>修复首页不显示插件和订阅脚本中的 MITM、脚本、复写数量</li><li>同步最新内核</li><li>注意：本次更新更换了整个文件路径，因此之前下载的资源需要重新下载，只有配置文件会自动复制到新路径</li></ul>]]></description>
+      <pubDate>Fri, 02 Jan 2026 22:38:19 +0000</pubDate>
+      <enclosure url="https://github.com/Loon0x00/Loon4Mac/releases/download/0.1(41)/Loon_alpha_41.dmg" length="33591126" type="application/octet-stream" sparkle:edSignature="BR0v52XYUgIRJiF8dLzDc376mvCz21lM+pq9ktPSUUhXtaY5pTUn7ag/qvmDg7YznIH36UVhFH6l1S+a8jBLDA=="/>
+    </item>
+
+    <item>
+      <title>Version 0.1 alpha (Build 40)</title><link>https://nsloon.app</link>
+      <sparkle:version>40</sparkle:version><sparkle:shortVersionString>0.1(40)</sparkle:shortVersionString>
+      <sparkle:releaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html#build-40</sparkle:releaseNotesLink>
+      <sparkle:fullReleaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html</sparkle:fullReleaseNotesLink>
+      <description><![CDATA[<ul><li>添加多配置文件切换，可以选择配置文件目录（推荐选择 iCloud 下的 Loon 目录，同步 iOS 配置）</li><li>新增安装帮助程序和配置系统网络扩展引导</li><li>将文件目录更换到更加安全的路径</li><li>新增日志等级设置，自动删除超过 7 天的日志</li><li>重新绘制首页折线图，使用 GPU 渲染并支持 60 帧刷新</li><li>修复状态栏显示网速导致 CPU 占用率高的问题</li><li>修复首页不显示插件和订阅脚本中的 MITM、脚本、复写数量</li><li>同步最新内核</li><li>注意：本次更新更换了整个文件路径，因此之前下载的资源需要重新下载，只有配置文件会自动复制到新路径</li></ul>]]></description>
+      <pubDate>Fri, 02 Jan 2026 22:38:19 +0000</pubDate>
+      <enclosure url="https://github.com/Loon0x00/Loon4Mac/releases/download/0.1(40)/Loon_alpha_40.dmg" length="33578741" type="application/octet-stream" sparkle:edSignature="k0JnPSF379PgfNhmlQa2+zfcpmjzLNASnOOBajvXFeMsgIeM8iytUDkmabKGCWl3nC2O37G/nZ0vEbdT0LAIBA=="/>
+    </item>
+
+    <item>
+      <title>Version 0.1 alpha (Build 39)</title><link>https://nsloon.app</link>
+      <sparkle:version>39</sparkle:version><sparkle:shortVersionString>0.1(39)</sparkle:shortVersionString>
+      <sparkle:releaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html#build-39</sparkle:releaseNotesLink>
+      <sparkle:fullReleaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html</sparkle:fullReleaseNotesLink>
+      <description><![CDATA[<ul><li>添加多配置文件切换，可以选择配置文件目录（推荐选择 iCloud 下的 Loon 目录，同步 iOS 配置）</li><li>新增安装帮助程序和配置系统网络扩展引导</li><li>将文件目录更换到更加安全的路径</li><li>新增日志等级设置，自动删除超过 7 天的日志</li><li>重新绘制首页折线图，使用 GPU 渲染并支持 60 帧刷新</li><li>修复状态栏显示网速导致 CPU 占用率高的问题</li><li>修复首页不显示插件和订阅脚本中的 MITM、脚本、复写数量</li><li>同步最新内核</li><li>注意：本次更新更换了整个文件路径，因此之前下载的资源需要重新下载，只有配置文件会自动复制到新路径</li></ul>]]></description>
+      <pubDate>Fri, 02 Jan 2026 22:38:19 +0000</pubDate>
+      <enclosure url="https://github.com/Loon0x00/Loon4Mac/releases/download/0.1(39)/Loon_alpha_39.dmg" length="33597556" type="application/octet-stream" sparkle:edSignature="SVzd5ORiHpuytaH9FBPgFF6NgRv2gn2B15LwBeFT63tRcFF4iTVZlvhkGmNa2fj2whgjJvirbEwb63KkC5gdAQ=="/>
+    </item>
+
+    <item>
+      <title>Version 0.1 alpha (Build 34)</title><link>https://nsloon.app</link>
+      <sparkle:version>34</sparkle:version><sparkle:shortVersionString>0.1(34)</sparkle:shortVersionString>
+      <sparkle:releaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html#build-34</sparkle:releaseNotesLink>
+      <sparkle:fullReleaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html</sparkle:fullReleaseNotesLink>
+      <description><![CDATA[<ul><li>网络扩展未安装或未激活时给出明确提示</li><li>修正帮助程序安装失败问题，详见“配置－更多－授权”页面</li></ul>]]></description>
+      <pubDate>Sat, 13 Dec 2025 22:33:43 +0000</pubDate>
+      <enclosure url="https://github.com/Loon0x00/Loon4Mac/releases/download/0.1(34)/Loon_alpha_34.dmg" length="33405156" type="application/octet-stream" sparkle:edSignature="+4lr+ReHbRVyCWoSNTcfn+Tm7N42y7lC9BLPNZ8+RRzpD3BMt/MuqBzxsKW6YXWkqeGQ3qFefkUgjfKxQLCDAQ=="/>
+    </item>
+
+    <item>
+      <title>Version 0.1 alpha (Build 32)</title><link>https://nsloon.app</link>
+      <sparkle:version>32</sparkle:version><sparkle:shortVersionString>0.1(32)</sparkle:shortVersionString>
+      <sparkle:releaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html#build-32</sparkle:releaseNotesLink>
+      <sparkle:fullReleaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html</sparkle:fullReleaseNotesLink>
+      <description><![CDATA[<ul><li>添加开机自启</li><li>添加设置系统代理，端口为配置文件中 Wi-Fi 共享的端口</li><li>调整状态栏图标大小</li><li>首页连接数量超过 1000 后显示为 1k</li><li>修复一些崩溃问题</li></ul>]]></description>
+      <pubDate>Fri, 14 Nov 2025 21:40:58 +0000</pubDate>
+      <enclosure url="https://github.com/Loon0x00/Loon4Mac/releases/download/0.1(32)/Loon_alpha_32.dmg" length="33388352" type="application/octet-stream" sparkle:edSignature="xJQTEiafeQtZysvGC80WYLz8OlGqP4s6tNPPf+N+yCPlqEIpo7qGyvns/SHTSPNlaBWHBtk9U+CbYmBuZlyTAw=="/>
+    </item>
+
+    <item>
+      <title>Version 0.1 alpha (Build 29)</title><link>https://nsloon.app</link>
+      <sparkle:version>29</sparkle:version><sparkle:shortVersionString>0.1(29)</sparkle:shortVersionString>
+      <sparkle:releaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html#build-29</sparkle:releaseNotesLink>
+      <sparkle:fullReleaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html</sparkle:fullReleaseNotesLink>
+      <description><![CDATA[<ul><li>添加“更多”页面</li><li>添加授权页面，可以集中查看详细授权情况</li><li>状态栏添加是否显示下载速度的选项</li><li>修复 SSID 在 Tunnel 中无效的问题（需要定位授权）</li><li>修复一些崩溃问题</li></ul>]]></description>
+      <pubDate>Mon, 13 Oct 2025 23:50:16 +0000</pubDate>
+      <enclosure url="https://github.com/Loon0x00/Loon4Mac/releases/download/0.1(29)/Loon_alpha_29.dmg" length="33303163" type="application/octet-stream" sparkle:edSignature="lEjJPaoQjf9oL1NgmbfnElBEYMJvpTXjd/yc5wafw3wgZiz/pDejLEeWCltBIHJQMqjJIONbBwGZPQjCfiu5Aw=="/>
+    </item>
+
+    <item>
+      <title>Version 0.1 alpha (Build 28)</title><link>https://nsloon.app</link>
+      <sparkle:version>28</sparkle:version><sparkle:shortVersionString>0.1(28)</sparkle:shortVersionString>
+      <sparkle:releaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html#build-28</sparkle:releaseNotesLink>
+      <sparkle:fullReleaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html</sparkle:fullReleaseNotesLink>
+      <description><![CDATA[<ul><li>添加“更多”页面</li><li>添加授权页面，可以集中查看详细授权情况</li><li>状态栏添加是否显示下载速度的选项</li><li>修复 SSID 在 Tunnel 中无效的问题（需要定位授权）</li><li>修复一些崩溃问题</li></ul>]]></description>
+      <pubDate>Mon, 13 Oct 2025 22:34:46 +0000</pubDate>
+      <enclosure url="https://github.com/Loon0x00/Loon4Mac/releases/download/0.1(28)/Loon_alpha_28.dmg" length="33308379" type="application/octet-stream" sparkle:edSignature="J4sjDn40A5QWP8vf8/hQj95d5GuTjTJiDbFqBVTnGghBUPn+A5rqU5bbi+loyq0Vc2G8c3u9ZdQU+xL/1471DA=="/>
+    </item>
+
+    <item>
+      <title>Version 0.1 alpha (Build 27)</title><link>https://nsloon.app</link>
+      <sparkle:version>27</sparkle:version><sparkle:shortVersionString>0.1(27)</sparkle:shortVersionString>
+      <sparkle:releaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html#build-27</sparkle:releaseNotesLink>
+      <sparkle:fullReleaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html</sparkle:fullReleaseNotesLink>
+      <description><![CDATA[<ul><li>修复更新时无法关闭 App 的问题</li><li>修复某些情况下安装丢失的问题</li><li>配置文件和资源文件显示 Loon 扩展图标</li><li>现在可以直接使用 Loon 打开后缀为 <code>.conf</code> 和 <code>.lcf</code> 的配置文件</li><li>文件下载支持 ETag</li><li>修复一些崩溃问题</li></ul>]]></description>
+      <pubDate>Mon, 01 Sep 2025 16:48:21 +0000</pubDate>
+      <enclosure url="https://github.com/Loon0x00/Loon4Mac/releases/download/0.1(27)/Loon_alpha_27.dmg" length="33356556" type="application/octet-stream" sparkle:edSignature="I8o8XguKBlsPSkQkU/l7t+oeeLm960ZdEWIva4oMu6Hup5YNJh6rKzkRmGlAlu8zcWwhod3QHdm7GmqHxEXPCQ=="/>
+    </item>
+
+    <item>
+      <title>Version 0.1 alpha (Build 26)</title><link>https://nsloon.app</link>
+      <sparkle:version>26</sparkle:version><sparkle:shortVersionString>0.1(26)</sparkle:shortVersionString>
+      <sparkle:releaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html#build-26</sparkle:releaseNotesLink>
+      <sparkle:fullReleaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html</sparkle:fullReleaseNotesLink>
+      <description><![CDATA[<ul><li>修复某些情况下安装证书时崩溃的问题</li><li>部分 UI 适配</li></ul>]]></description>
+      <pubDate>Mon, 01 Sep 2025 16:48:21 +0000</pubDate>
+      <enclosure url="https://github.com/Loon0x00/Loon4Mac/releases/download/0.1(26)/Loon_alpha_26.dmg" length="32206177" type="application/octet-stream" sparkle:edSignature="Ch2qRT149cTUbWF1fqKNT9gLxeSbtRNy/Ym1xjwreUcf0Q1fl0/V9kopyA7gSuJnRWJGrG9xAntfp3FRBHkHBg=="/>
+    </item>
+
+    <item>
+      <title>Version 0.1 alpha (Build 25)</title><link>https://nsloon.app</link>
+      <sparkle:version>25</sparkle:version><sparkle:shortVersionString>0.1(25)</sparkle:shortVersionString>
+      <sparkle:releaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html#build-25</sparkle:releaseNotesLink>
+      <sparkle:fullReleaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html</sparkle:fullReleaseNotesLink>
+      <description><![CDATA[<ul><li>修复 macOS 14 以下系统的崩溃问题</li><li>修复部分 UI 操作时的崩溃问题</li><li>添加 Firebase 用于统计崩溃，不会收集其他信息</li><li>添加位置权限用于获取 Wi-Fi 的 SSID；如果没有使用 SSID 策略，可以不允许此权限</li><li>调整菜单栏样式</li><li>调整部分 UI 样式，适配 macOS 26</li><li>检测到配置文件证书无法解析后自动删除</li><li>修复添加或编辑部分协议节点时无法保存参数的问题</li><li>关闭 Loon 窗口时自动转入后台运行，程序坞不再显示图标</li></ul>]]></description>
+      <pubDate>Fri, 29 Aug 2025 18:07:34 +0000</pubDate>
+      <enclosure url="https://github.com/Loon0x00/Loon4Mac/releases/download/0.1(25)/Loon_alpha_25.dmg" length="32193923" type="application/octet-stream" sparkle:edSignature="R8tqJzpveR5n1nOQLw/ad7gycILSFDwPl4cAHycznubN+AFhTkpDGIlokcXD+kdizPMCrbx2kUFCYS/lp92bCg=="/>
+    </item>
+
+    <item>
+      <title>Version 0.1 alpha (Build 24)</title><link>https://nsloon.app</link>
+      <sparkle:version>24</sparkle:version><sparkle:shortVersionString>0.1(24)</sparkle:shortVersionString>
+      <sparkle:releaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html#build-24</sparkle:releaseNotesLink>
+      <sparkle:fullReleaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html</sparkle:fullReleaseNotesLink>
+      <description><![CDATA[<ul><li>修复 macOS 14 以下系统的崩溃问题</li><li>修复部分 UI 操作时的崩溃问题</li><li>添加 Firebase 用于统计崩溃，不会收集其他信息</li><li>添加位置权限用于获取 Wi-Fi 的 SSID；如果没有使用 SSID 策略，可以不允许此权限</li><li>调整菜单栏样式</li><li>调整部分 UI 样式，适配 macOS 26</li><li>检测到配置文件证书无法解析后自动删除</li><li>修复添加或编辑部分协议节点时无法保存参数的问题</li><li>关闭 Loon 窗口时自动转入后台运行，程序坞不再显示图标</li></ul>]]></description>
+      <pubDate>Fri, 29 Aug 2025 17:27:23 +0000</pubDate>
+      <enclosure url="https://github.com/Loon0x00/Loon4Mac/releases/download/0.1(24)/Loon_alpha_24.dmg" length="32177326" type="application/octet-stream" sparkle:edSignature="2GgmvQkw6RD3K0/M3+U1Ue32pGzOqLl7fAzP3uvVKpX2QmqhKLmhtk8MJAUmbdkB6raLOGgVJ2zFL81AuWAqAQ=="/>
+    </item>
+
+    <item>
+      <title>Version 0.1 alpha (Build 23)</title><link>https://nsloon.app</link>
+      <sparkle:version>23</sparkle:version><sparkle:shortVersionString>0.1(23)</sparkle:shortVersionString>
+      <sparkle:releaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html#build-23</sparkle:releaseNotesLink>
+      <sparkle:fullReleaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html</sparkle:fullReleaseNotesLink>
+      <description><![CDATA[<ul><li>修复 macOS 14 以下系统的崩溃问题</li><li>修复部分 UI 操作时的崩溃问题</li><li>添加 Firebase 用于统计崩溃，不会收集其他信息</li><li>添加位置权限用于获取 Wi-Fi 的 SSID；如果没有使用 SSID 策略，可以不允许此权限</li><li>调整菜单栏样式</li><li>调整部分 UI 样式，适配 macOS 26</li><li>检测到配置文件证书无法解析后自动删除</li><li>本次更新主要修复严重崩溃，功能性问题会尽快修复</li></ul>]]></description>
+      <pubDate>Fri, 29 Aug 2025 16:21:23 +0000</pubDate>
+      <enclosure url="https://github.com/Loon0x00/Loon4Mac/releases/download/0.1(23)/Loon_alpha_23.dmg" length="32171560" type="application/octet-stream" sparkle:edSignature="E3rWIgofM+elRn6hVGN7P3j3neN/Hc2lGRdS9Od0zb8G/a8iNZGBrEGhesm7gHxMvtFzj93DMoSM0swLzu0FCA=="/>
+    </item>
+
+    <item>
+      <title>Version 0.1 alpha (Build 18)</title><link>https://nsloon.app</link>
+      <sparkle:version>18</sparkle:version><sparkle:shortVersionString>0.1(18)</sparkle:shortVersionString>
+      <sparkle:releaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html#build-18</sparkle:releaseNotesLink>
+      <sparkle:fullReleaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html</sparkle:fullReleaseNotesLink>
+      <description><![CDATA[<ul><li>支持自动更新</li></ul>]]></description>
+      <pubDate>Mon, 25 Aug 2025 13:27:11 +0000</pubDate>
+      <enclosure url="https://github.com/Loon0x00/Loon4Mac/releases/download/0.1(18)/Loon_alpha_18.dmg" length="31424806" type="application/octet-stream" sparkle:edSignature="S+QUVXBMUVaf4qGxN7qXEc7a6d79hFxCFzdmjwFMmbD5JLreZYuzkI92dM61epULwvKTDW6AjnCvDHX6ZjXOCA=="/>
+    </item>
+
+    <item>
+      <title>Version 0.1 alpha (Build 17)</title><link>https://nsloon.app</link>
+      <sparkle:version>17</sparkle:version><sparkle:shortVersionString>0.1(17)</sparkle:shortVersionString>
+      <sparkle:releaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html#build-17</sparkle:releaseNotesLink>
+      <sparkle:fullReleaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html</sparkle:fullReleaseNotesLink>
+      <description><![CDATA[<ul><li>支持自动更新</li></ul>]]></description>
+      <pubDate>Sat, 23 Aug 2025 13:27:11 +0000</pubDate>
+      <enclosure url="https://github.com/Loon0x00/Loon4Mac/releases/download/0.1(17)/Loon_alpha_17.dmg" length="31421263" type="application/octet-stream" sparkle:edSignature="LR2ASM+URFJh1CtzdaZQA6Z8ybiR6h31+dK0/l7xKwuyilrz73iWU4AqW0O3k/QKMV89QWAOjRelyxk7pukLCQ=="/>
+    </item>
+  </channel>
 </rss>

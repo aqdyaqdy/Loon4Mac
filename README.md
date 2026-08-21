@@ -1,6 +1,10 @@
 # Loon4Mac
 Loon for Mac
 
+## 更新日志
+
+完整版本记录请查看 [Loon for Mac 更新日志](https://nsloon.app/Loon4Mac/changelog.html)。
+
 # 邀请测试阶段
 Loon已经完成了部分用户内测阶段，完成了基本的功能，但由于目前很多UI功能不够完善、BUG比较多，为了避免在使用过程中遇到的异常，影响正常的工作和生活，目前Loon for Mac暂时只接受申请测试的用户使用。
 
