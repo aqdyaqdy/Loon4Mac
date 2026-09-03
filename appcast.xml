@@ -8,6 +8,15 @@
 
     <!-- 发布新版本时，请将新的 item 插在这里，并保留下方的历史 item。 -->
     <item>
+      <title>Version 0.4.0 alpha (Build 81)</title><link>https://nsloon.app</link>
+      <sparkle:version>81</sparkle:version><sparkle:shortVersionString>0.4.0(81)</sparkle:shortVersionString>
+      <sparkle:releaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html#build-81</sparkle:releaseNotesLink>
+      <sparkle:fullReleaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html</sparkle:fullReleaseNotesLink>
+      <description><![CDATA[<ul><li>新增独立 Dashboard，集中查看请求记录、DNS 记录和脚本记录，支持搜索、分类筛选、历史记录及请求详情。</li><li>全面优化进程识别，提高 TCP、UDP、QUIC 及 DNS 请求的应用归属准确性。</li><li>升级脚本与 Rewrite 解析、匹配机制，完善复杂条件和插件参数支持。</li><li>重构系统代理与 Helper Tool 协作流程，提升代理启用、恢复、网络切换及 VPN 启停时的可靠性。</li><li>修改本地 HTTP 或 SOCKS 端口后，支持自动重启 VPN 并同步系统代理。</li><li>优化 WireGuard 域名解析、IPv6 DNS、网络测速及策略切换表现。</li><li>精简加密依赖并修复若干稳定性问题。</li></ul>]]></description>
+      <pubDate>Thu, 03 Sep 2026 09:52:09 -0000</pubDate>
+      <enclosure url="https://github.com/Loon0x00/Loon4Mac/releases/download/0.4.0(81)/Loon-0.4.0-beta-81.dmg" length="54466779" type="application/octet-stream" sparkle:edSignature="U2Xj2vY6hfYSD80kRxGronRwN7/OKxeOBxncNav49LMA3h3+VXNGDMQrtXaIOrcdWDKz4d8ad/IE1yDu8bImAg=="/>
+    </item>
+    <item>
       <title>Version 0.4.0 alpha (Build 73)</title><link>https://nsloon.app</link>
       <sparkle:version>73</sparkle:version><sparkle:shortVersionString>0.4.0(73)</sparkle:shortVersionString>
       <sparkle:releaseNotesLink>https://nsloon.app/Loon4Mac/changelog.html#build-73</sparkle:releaseNotesLink>
